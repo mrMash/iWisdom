@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>iWisdom - Smart Schooling System</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <style>
     * {
@@ -13,7 +13,7 @@
       box-sizing: border-box;
     }
     body {
-      font-family: 'Poppins', sans-serif;
+      font-family: 'Roboto', sans-serif;
       color: white;
       background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
       overflow-x: hidden;
@@ -49,16 +49,21 @@
       animation: fadeInDown 1.5s ease;
     }
     header h1 {
-      font-size: 3.5rem;
+      font-size: 4rem;
       margin-bottom: 1rem;
-      color: #00e0ff;
-      animation: fadeInUp 1.5s ease;
-      text-shadow: 0 0 20px #00e0ff;
+      font-family: 'Orbitron', sans-serif;
+      color: #6cf1ff;
+      animation: floatTitle 4s ease-in-out infinite alternate;
+      text-shadow: 0 0 25px #00e0ff, 0 0 60px #00e0ff50;
     }
     header p {
-      font-size: 1.25rem;
+      font-size: 1.35rem;
       max-width: 700px;
       animation: fadeIn 2s ease;
+    }
+    @keyframes floatTitle {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-12px); }
     }
     .section {
       padding: 4rem 2rem;
@@ -76,11 +81,36 @@
       border-radius: 10px;
       padding: 1.5rem;
       text-align: center;
-      transition: background 0.3s;
+      transition: background 0.3s, transform 0.3s;
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
     .pillar:hover {
       background: rgba(255,255,255,0.1);
+      transform: translateY(-5px);
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .feature-card {
+      flex: 1 1 250px;
+      background: rgba(255,255,255,0.05);
+      padding: 2rem;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .feature-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+    }
+    .feature-card img {
+      width: 60px;
+      margin-bottom: 1rem;
     }
     .gallery {
       display: grid;
@@ -121,39 +151,18 @@
   </header>
 
   <section class="section">
-    <h2 style="text-align: center; color: #00e0ff;">Our Vision</h2>
-    <p style="text-align: center; margin-top: 1rem;">
-      iWisdom is a next-generation smart schooling system powered by artificial intelligence. Designed to transform how students learn, our platform leverages the immersive power of Virtual Reality (VR), Mixed Reality (MR), and advanced AI technologies. Aligned with the national curriculum and NEP (National Education Policy), iWisdom redefines science education by offering personalized, interactive, and data-driven learning experiences.
-    </p>
-    <p style="text-align: center; margin-top: 1rem;">
-      Grounded in ten foundational pillars, iWisdom aims to foster curiosity, improve academic outcomes, and nurture 21st-century skills. Whether it's through immersive VR simulations, AI-based student analytics, or real-time behavioral predictions, we are committed to making science education more engaging, effective, and future-ready.
-    </p>
+    <h2 style="text-align:center; font-family: 'Orbitron', sans-serif; color: #6cf1ff;">10 Foundational Pillars</h2>
     <div class="pillars">
-      <div class="pillar" data-aos="fade-up">VR-based Interactive Learning</div>
-      <div class="pillar" data-aos="fade-up" data-aos-delay="100">AI-Based Knowledge Check</div>
-      <div class="pillar" data-aos="fade-up" data-aos-delay="200">Interschool Competitions</div>
-      <div class="pillar" data-aos="fade-up" data-aos-delay="300">Smart School System</div>
-      <div class="pillar" data-aos="fade-up" data-aos-delay="400">Student Assessment</div>
-      <div class="pillar" data-aos="fade-up" data-aos-delay="500">Student Analysis</div>
-      <div class="pillar" data-aos="fade-up" data-aos-delay="600">Performance Prediction</div>
-      <div class="pillar" data-aos="fade-up" data-aos-delay="700">Behavioral & Interest Prediction</div>
-      <div class="pillar" data-aos="fade-up" data-aos-delay="800">Teacher Evaluation</div>
-      <div class="pillar" data-aos="fade-up" data-aos-delay="900">Specialized Schooling Systems</div>
-    </div>
-
-    <div class="gallery">
-      <img src="Assets/Images/VrClass.jpg" alt="VR Class" />
-      <img src="Assets/Images/Planets1.jpg" alt="Planets" />
-      <img src="Assets/Images/Cell.jpg" alt="Cell" />
-      <img src="Assets/Images/Girl.jpg" alt="Girl" />
-      <img src="Assets/Images/Machine.jpg" alt="Machine" />
-      <img src="Assets/Images/Vrclass4.jpg" alt="VR Classroom" />
-      <img src="Assets/Images/VRClass2.jpg" alt="VR Class 2" />
-      <img src="Assets/Images/VRclass3.jpg" alt="VR Class 3" />
-      <img src="Assets/Images/VRClass5.jpg" alt="VR Class 5" />
-      <img src="Assets/Images/WaterCycle.jpg" alt="Water Cycle" />
-      <img src="Assets/Images/Satrun.jpg" alt="Saturn" />
-      <img src="Assets/Images/Title.jpg" alt="Title" />
+      <div class="pillar">VR-Based Science Education</div>
+      <div class="pillar">Grade-Wise Custom Content</div>
+      <div class="pillar">Interactive Quizzes & Challenges</div>
+      <div class="pillar">AI-Powered Learning Paths</div>
+      <div class="pillar">Immersive Physics Simulations</div>
+      <div class="pillar">Gamified Progress Tracking</div>
+      <div class="pillar">Multilingual Accessibility</div>
+      <div class="pillar">Parent & Teacher Dashboards</div>
+      <div class="pillar">Offline Mode Support</div>
+      <div class="pillar">Cross-Platform Compatibility</div>
     </div>
   </section>
 
