@@ -40,6 +40,8 @@
       position: relative;
       z-index: 1;
     }
+
+/*     
     header img.logo {
       max-width: 150px;
       margin-bottom: 1rem;
@@ -53,6 +55,24 @@
       color: #6cf1ff;
       animation: floatTitle 4s ease-in-out infinite alternate;
       text-shadow: 0 0 25px #00e0ff, 0 0 60px #00e0ff50;
+    } */
+
+     header img.logo {
+      max-width: 150px;
+      margin-bottom: 1rem;
+      animation: fadeInDown 1.5s ease;
+    }
+    header h1 {
+      font-size: 3.5rem;
+      font-size: 4rem;
+      margin-bottom: 1rem;
+      color: #00e0ff;
+      animation: fadeInUp 1.5s ease;
+      text-shadow: 0 0 20px #00e0ff;
+      font-family: 'Orbitron', sans-serif;
+      color: #6cf1ff;
+      animation: floatTitle 4s ease-in-out infinite alternate;
+      text-shadow: 0 0 25px #00e0ff, 0 0 60px #00e0ff50;
     }
     header p {
       font-size: 1.35rem;
@@ -60,9 +80,13 @@
       animation: fadeIn 2s ease;
     }
 
-    @keyframes floatTitle {
+/*     @keyframes floatTitle {
       0% { transform: translateY(0); }
       100% { transform: translateY(-15px); }
+    } */
+       @keyframes floatTitle {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-12px); }
     }
 
   /*   @keyframes fadeInUp {
