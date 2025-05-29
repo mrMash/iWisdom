@@ -25,6 +25,25 @@
       align-items: center;
       text-align: center;
       padding: 2rem;
+      background: url('Assets/Images/glaxy.jpg') center/cover no-repeat; /* REPLACE this with your uploaded hero image */
+      position: relative;
+    }
+    header::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    header > * {
+      position: relative;
+      z-index: 1;
+    }
+    header img.logo {
+      max-width: 150px;
+      margin-bottom: 1rem;
     }
     header h1 {
       font-size: 3rem;
@@ -66,6 +85,8 @@
 </head>
 <body>
   <header>
+    <!-- Replace 'logo.png' with your uploaded logo in the assets folder -->
+    <img src="Assets/Images/logo.png" alt="iWisdom Logo" class="logo" />
     <h1>iWisdom</h1>
     <p>Revolutionizing Science Education with VR, MR, and AI for Classes 1 to 10</p>
   </header>
