@@ -60,7 +60,7 @@
       animation: fadeIn 2s ease;
     }
 
-    @keyframes floatTitle {
+/*     @keyframes floatTitle {
       0% { transform: translateY(0); }
       100% { transform: translateY(-15px); }
     }
@@ -70,6 +70,19 @@
       100% { opacity: 1; transform: translateY(0); }
     }
 
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    } */
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
     @keyframes fadeIn {
       from { opacity: 0; }
       to { opacity: 1; }
@@ -245,7 +258,7 @@
     <h2>Gallery</h2>
     <div class="gallery">
       <img src="Assets/Images/VRClass2.jpg" alt="Gallery Image 1">
-      <img src="Assets/Images/VRClass3.jpg" alt="Gallery Image 2">
+      <img src="Assets/Images/Cell.jpg" alt="Gallery Image 2">
     </div>
   </section>
 
