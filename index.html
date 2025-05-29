@@ -1,1 +1,282 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <title>iWisdom - Smart Schooling System</title> <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet"> <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <style> * { margin: 0; padding: 0; box-sizing: border-box; } body { font-family: 'Roboto', sans-serif; color: white; background: linear-gradient(to right, #0f0c29, #302b63, #24243e); overflow-x: hidden; } header { height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 2rem; background: url('Assets/Images/VRClass5.jpg') center/cover no-repeat fixed; background-attachment: fixed; position: relative; } header::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.5); } header > * { position: relative; z-index: 1; } header img.logo { max-width: 150px; margin-bottom: 1rem; animation: floatTitle 4s ease-in-out infinite alternate; filter: drop-shadow(0 0 8px #00e0ff) drop-shadow(0 0 16px #00e0ff); } header h1 { font-size: 4rem; margin-bottom: 1rem; font-family: 'Orbitron', sans-serif; color: #6cf1ff; animation: floatTitle 4s ease-in-out infinite alternate; text-shadow: 0 0 25px #00e0ff, 0 0 60px #00e0ff50; } header p { font-size: 1.35rem; max-width: 700px; animation: fadeIn 2s ease; } .section { padding: 4rem 2rem; max-width: 1200px; margin: 0 auto; } .section h2 { font-family: 'Orbitron', sans-serif; color: #6cf1ff; margin-bottom: 1rem; text-align: center; } .pillars { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 2rem; } .pillar { background: rgba(255,255,255,0.05); border-radius: 10px; padding: 1.5rem; text-align: center; transition: background 0.3s, transform 0.3s; box-shadow: 0 4px 8px rgba(0,0,0,0.2); } .pillar:hover { background: rgba(255,255,255,0.1); transform: translateY(-5px); } .gallery, .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; } .gallery img, .feature-card img { width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); } .feature-card { background: rgba(255,255,255,0.05); padding: 2rem; border-radius: 10px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: transform 0.3s; } .feature-card:hover { transform: translateY(-5px); } .slogan { font-size: 2rem; color: #00ffe7; font-weight: bold; text-align: center; margin-top: 3rem; margin-bottom: 1rem; animation: fadeInUp 2s ease-in-out; } footer { text-align: center; padding: 2rem; background: rgba(0,0,0,0.2); font-size: 0.9rem; } footer a { color: #00ffe7; text-decoration: none; } iframe { width: 100%; height: 315px; border: none; border-radius: 10px; margin-top: 1rem; } blockquote { background: rgba(255,255,255,0.05); border-left: 4px solid #00ffe7; padding: 1rem; margin: 1rem 0; font-style: italic; } form { display: flex; flex-direction: column; gap: 1rem; margin-top: 2rem; } form input, form textarea { padding: 0.75rem; border: none; border-radius: 6px; } form button { background: #00ffe7; border: none; padding: 0.75rem; border-radius: 6px; font-weight: bold; cursor: pointer; } </style> </head> <body> <header> <img src="Assets/Images/Logo.png" alt="iWisdom Logo" class="logo" /> <h1>iWisdom</h1> <p>Revolutionizing Science Education through VR, MR, and AI for Grades 1 to 10</p> </header> <section class="section"> <h2>10 Foundational Pillars</h2> <div class="pillars"> <div class="pillar">VR-Based Science Education</div> <div class="pillar">Grade-Wise Custom Content</div> <div class="pillar">Interactive Quizzes & Challenges</div> <div class="pillar">AI-Powered Learning Paths</div> <div class="pillar">Immersive Physics Simulations</div> <div class="pillar">Gamified Progress Tracking</div> <div class="pillar">Multilingual Accessibility</div> <div class="pillar">Parent & Teacher Dashboards</div> <div class="pillar">Offline Mode Support</div> <div class="pillar">Cross-Platform Compatibility</div> </div> <div class="slogan">Empowering Every Student, Every Day</div> </section> <section class="section"> <h2>Curriculum by Grade</h2> <p>Explore detailed, immersive science topics for each grade level from 1 to 10.</p> </section> <section class="section"> <h2>Key Features</h2> <div class="features"> <div class="feature-card"><img src="Assets/Images/vr_icon.png" alt=""> Immersive VR Lessons</div> <div class="feature-card"><img src="Assets/Images/ai_icon.png" alt=""> AI-Based Progress</div> <div class="feature-card"><img src="Assets/Images/lab_icon.png" alt=""> Interactive Labs</div> </div> </section> <section class="section"> <h2>Gallery</h2> <div class="gallery"> <img src="Assets/Images/VRClass2.jpg" alt="Gallery Image 1"> <img src="Assets/Images/VRClass3.jpg" alt="Gallery Image 2"> </div> </section> <section class="section"> <h2>Watch iWisdom in Action</h2> <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="iWisdom Video"></iframe> </section> <section class="section"> <h2>What Educators Say</h2> <blockquote>“Our students love iWisdom’s VR science lessons. Engagement has skyrocketed!” – Ms. Farah</blockquote> <blockquote>“iWisdom brings abstract science concepts to life for my grade 6 class.” – Mr. Ahmed</blockquote> </section> <section class="section"> <h2>Meet the Team</h2> <p>Aya Khan – Founder & Educator</p> <p>Omar Youssef – VR Developer</p> <p>Leila Rashid – Curriculum Expert</p> </section> <section class="section"> <h2>Contact Us</h2> <form> <input type="text" placeholder="Your Name" /> <input type="email" placeholder="Your Email" /> <textarea placeholder="Your Message"></textarea> <button type="submit">Send</button> </form> </section> <footer> &copy; 2025 iWisdom. All rights reserved. | <a href="mailto:contact@iwisdom.ai">contact@iwisdom.ai</a><br/> Developed with ❤️ using <a href="https://threejs.org/" target="_blank" rel="noopener">Three.js</a>, <a href="https://unity.com/" target="_blank" rel="noopener">Unity</a>, and <a href="https://openai.com" target="_blank" rel="noopener">OpenAI</a> </footer> <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <script> AOS.init(); </script> </body> </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>iWisdom - Smart Schooling System</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      color: white;
+      background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+      overflow-x: hidden;
+    }
+    header {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+      background: url('Assets/Images/VRClass5.jpg') center/cover no-repeat fixed;
+      background-attachment: fixed;
+      position: relative;
+    }
+    header::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    header > * {
+      position: relative;
+      z-index: 1;
+    }
+    header img.logo {
+      max-width: 150px;
+      margin-bottom: 1rem;
+      animation: floatTitle 4s ease-in-out infinite alternate;
+      filter: drop-shadow(0 0 12px #00e0ff) drop-shadow(0 0 24px #00e0ff);
+    }
+    header h1 {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+      font-family: 'Orbitron', sans-serif;
+      color: #6cf1ff;
+      animation: floatTitle 4s ease-in-out infinite alternate;
+      text-shadow: 0 0 25px #00e0ff, 0 0 60px #00e0ff50;
+    }
+    header p {
+      font-size: 1.35rem;
+      max-width: 700px;
+      animation: fadeIn 2s ease;
+    }
+
+    @keyframes floatTitle {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-15px); }
+    }
+
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .section h2 {
+      font-family: 'Orbitron', sans-serif;
+      color: #6cf1ff;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .section p {
+      text-align: center;
+      font-size: 1.1rem;
+      color: #e0f7ff;
+    }
+    .pillars {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .pillar {
+      background: rgba(255,255,255,0.05);
+      border-radius: 10px;
+      padding: 1.5rem;
+      text-align: center;
+      transition: background 0.3s, transform 0.3s;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      animation: fadeInUp 2s ease-in-out;
+    }
+    .pillar:hover {
+      background: rgba(255,255,255,0.1);
+      transform: translateY(-5px);
+    }
+    .gallery, .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .gallery img, .feature-card img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    .feature-card {
+      background: rgba(255,255,255,0.05);
+      padding: 2rem;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+    .feature-card:hover {
+      transform: translateY(-5px);
+    }
+    .slogan {
+      font-size: 2rem;
+      color: #00ffe7;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+      animation: fadeInUp 2s ease-in-out;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: rgba(0,0,0,0.2);
+      font-size: 0.9rem;
+    }
+    footer a {
+      color: #00ffe7;
+      text-decoration: none;
+    }
+    iframe {
+      width: 100%;
+      height: 315px;
+      border: none;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+    blockquote {
+      background: rgba(255,255,255,0.05);
+      border-left: 4px solid #00ffe7;
+      padding: 1rem;
+      margin: 1rem 0;
+      font-style: italic;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 2rem;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 2rem;
+      background: rgba(255,255,255,0.05);
+      border-radius: 10px;
+    }
+    form input, form textarea {
+      padding: 0.75rem;
+      border: none;
+      border-radius: 6px;
+    }
+    form button {
+      background: #00ffe7;
+      border: none;
+      padding: 0.75rem;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Assets/Images/Logo.png" alt="iWisdom Logo" class="logo" />
+    <h1>iWisdom</h1>
+    <p>Revolutionizing Science Education through VR, MR, and AI for Grades 1 to 10</p>
+  </header>
+
+  <section class="section">
+    <h2>10 Foundational Pillars</h2>
+    <div class="pillars">
+      <div class="pillar">VR-Based Science Education</div>
+      <div class="pillar">Grade-Wise Custom Content</div>
+      <div class="pillar">Interactive Quizzes & Challenges</div>
+      <div class="pillar">AI-Powered Learning Paths</div>
+      <div class="pillar">Immersive Physics Simulations</div>
+      <div class="pillar">Gamified Progress Tracking</div>
+      <div class="pillar">Multilingual Accessibility</div>
+      <div class="pillar">Parent & Teacher Dashboards</div>
+      <div class="pillar">Offline Mode Support</div>
+      <div class="pillar">Cross-Platform Compatibility</div>
+    </div>
+    <div class="slogan">Empowering Every Student, Every Day</div>
+  </section>
+
+  <section class="section">
+    <h2>Curriculum by Grade</h2>
+    <p>Explore detailed, immersive science topics for each grade level from 1 to 10.</p>
+  </section>
+
+  <section class="section">
+    <h2>Key Features</h2>
+    <div class="features">
+      <div class="feature-card"><img src="Assets/Images/vr_icon.png" alt=""> Immersive VR Lessons</div>
+      <div class="feature-card"><img src="Assets/Images/ai_icon.png" alt=""> AI-Based Progress</div>
+      <div class="feature-card"><img src="Assets/Images/lab_icon.png" alt=""> Interactive Labs</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="Assets/Images/VRClass2.jpg" alt="Gallery Image 1">
+      <img src="Assets/Images/VRClass3.jpg" alt="Gallery Image 2">
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Watch iWisdom in Action</h2>
+    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="iWisdom Video"></iframe>
+  </section>
+
+  <section class="section">
+    <h2>What Educators Say</h2>
+    <blockquote>“Our students love iWisdom’s VR science lessons. Engagement has skyrocketed!” – Ms. Farah</blockquote>
+    <blockquote>“iWisdom brings abstract science concepts to life for my grade 6 class.” – Mr. Ahmed</blockquote>
+  </section>
+
+  <section class="section">
+    <h2>Meet the Team</h2>
+    <p>Aya Khan – Founder & Educator</p>
+    <p>Omar Youssef – VR Developer</p>
+    <p>Leila Rashid – Curriculum Expert</p>
+  </section>
+
+  <section class="section">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" />
+      <input type="email" placeholder="Your Email" />
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 iWisdom. All rights reserved. | 
+    <a href="mailto:contact@iwisdom.ai">contact@iwisdom.ai</a><br/>
+    Developed with ❤️ using 
+    <a href="https://threejs.org/" target="_blank" rel="noopener">Three.js</a>,
+    <a href="https://unity.com/" target="_blank" rel="noopener">Unity</a>, and
+    <a href="https://openai.com" target="_blank" rel="noopener">OpenAI</a>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
