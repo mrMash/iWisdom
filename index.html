@@ -27,6 +27,7 @@
       text-align: center;
       padding: 2rem;
       background: url('Assets/Images/glaxy.jpg') center/cover no-repeat fixed;
+      background-attachment: fixed;
       position: relative;
     }
     header::before {
@@ -52,6 +53,7 @@
       margin-bottom: 1rem;
       color: #00e0ff;
       animation: fadeInUp 1.5s ease;
+      text-shadow: 0 0 20px #00e0ff;
     }
     header p {
       font-size: 1.25rem;
@@ -80,6 +82,17 @@
     .pillar:hover {
       background: rgba(255,255,255,0.1);
     }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 3rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
     footer {
       text-align: center;
       padding: 2rem;
@@ -104,25 +117,43 @@
   <header>
     <img src="Assets/Images/Logo.png" alt="iWisdom Logo" class="logo" />
     <h1>iWisdom</h1>
-    <p>Revolutionizing Science Education with VR, MR, and AI for Classes 1 to 10</p>
+    <p>Revolutionizing Science Education through VR, MR, and AI for Grades 1 to 10</p>
   </header>
 
   <section class="section">
     <h2 style="text-align: center; color: #00e0ff;">Our Vision</h2>
     <p style="text-align: center; margin-top: 1rem;">
-      iWisdom is a visionary concept for an intelligent schooling system powered by artificial intelligence, built upon ten foundational pillars to personalize, enhance, and revolutionize education.
+      iWisdom is a next-generation smart schooling system powered by artificial intelligence. Designed to transform how students learn, our platform leverages the immersive power of Virtual Reality (VR), Mixed Reality (MR), and advanced AI technologies. Aligned with the national curriculum and NEP (National Education Policy), iWisdom redefines science education by offering personalized, interactive, and data-driven learning experiences.
+    </p>
+    <p style="text-align: center; margin-top: 1rem;">
+      Grounded in ten foundational pillars, iWisdom aims to foster curiosity, improve academic outcomes, and nurture 21st-century skills. Whether it's through immersive VR simulations, AI-based student analytics, or real-time behavioral predictions, we are committed to making science education more engaging, effective, and future-ready.
     </p>
     <div class="pillars">
       <div class="pillar" data-aos="fade-up">VR-based Interactive Learning</div>
       <div class="pillar" data-aos="fade-up" data-aos-delay="100">AI-Based Knowledge Check</div>
       <div class="pillar" data-aos="fade-up" data-aos-delay="200">Interschool Competitions</div>
       <div class="pillar" data-aos="fade-up" data-aos-delay="300">Smart School System</div>
-      <div class="pillar" data-aos="fade-up" data-aos-delay="400">Students Assessment</div>
-      <div class="pillar" data-aos="fade-up" data-aos-delay="500">Students Analysis</div>
-      <div class="pillar" data-aos="fade-up" data-aos-delay="600">Student Prediction</div>
+      <div class="pillar" data-aos="fade-up" data-aos-delay="400">Student Assessment</div>
+      <div class="pillar" data-aos="fade-up" data-aos-delay="500">Student Analysis</div>
+      <div class="pillar" data-aos="fade-up" data-aos-delay="600">Performance Prediction</div>
       <div class="pillar" data-aos="fade-up" data-aos-delay="700">Behavioral & Interest Prediction</div>
-      <div class="pillar" data-aos="fade-up" data-aos-delay="800">Teachers Assessment</div>
-      <div class="pillar" data-aos="fade-up" data-aos-delay="900">Specialized Schooling System</div>
+      <div class="pillar" data-aos="fade-up" data-aos-delay="800">Teacher Evaluation</div>
+      <div class="pillar" data-aos="fade-up" data-aos-delay="900">Specialized Schooling Systems</div>
+    </div>
+
+    <div class="gallery">
+      <img src="Assets/Images/VrClass.jpg" alt="VR Class" />
+      <img src="Assets/Images/Planets1.jpg" alt="Planets" />
+      <img src="Assets/Images/Cell.jpg" alt="Cell" />
+      <img src="Assets/Images/Girl.jpg" alt="Girl" />
+      <img src="Assets/Images/Machine.jpg" alt="Machine" />
+      <img src="Assets/Images/Vrclass4.jpg" alt="VR Classroom" />
+      <img src="Assets/Images/VRClass2.jpg" alt="VR Class 2" />
+      <img src="Assets/Images/VRclass3.jpg" alt="VR Class 3" />
+      <img src="Assets/Images/VRClass5.jpg" alt="VR Class 5" />
+      <img src="Assets/Images/WaterCycle.jpg" alt="Water Cycle" />
+      <img src="Assets/Images/Satrun.jpg" alt="Saturn" />
+      <img src="Assets/Images/Title.jpg" alt="Title" />
     </div>
   </section>
 
