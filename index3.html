@@ -247,6 +247,41 @@
   margin: 0 10px;
   transform: rotateY(0deg);
 }
+    .hero-buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.primary-btn {
+  background-color: #3e64ff;
+  color: white;
+  border: 2px solid #3e64ff;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  color: #3e64ff;
+  border: 2px solid #3e64ff;
+}
+
+.primary-btn:hover,
+.secondary-btn:hover {
+  background-color: #1b3fcf;
+  color: #fff;
+  border-color: #1b3fcf;
+}
+
 
 @keyframes rotateCarousel {
   from {
@@ -270,6 +305,11 @@
 i-Wisdom is an innovative smart schooling system designed to modernize primary and secondary science education (Grades 1–10) using Artificial Intelligence, Virtual Reality (VR), and Mixed Reality (MR). Built upon ten foundational pillars, the platform addresses long-standing educational challenges by offering a personalized, immersive, and scalable solution to STEM learning.
 
 </p>
+
+    <div class="hero-buttons">
+  <a href="#curriculum" class="btn primary-btn">Start Learning Now</a>
+  <a href="#demo" class="btn secondary-btn">Check Demo</a>
+</div>
 
   </header>
 
