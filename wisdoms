@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>iWisdom - Smart Schooling System</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #ffffff;
+      color: #111;
+      line-height: 1.6;
+    }
+    header {
+      padding: 4rem 2rem;
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    p.lead {
+      font-size: 1.25rem;
+      color: #555;
+    }
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 2rem;
+    }
+    h2 {
+      margin-top: 2rem;
+      font-size: 1.8rem;
+      color: #333;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    .footer {
+      text-align: center;
+      margin: 4rem 0 2rem;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+    .logo {
+      max-width: 120px;
+      margin: 2rem auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="your-logo.png" alt="iWisdom Logo" class="logo">
+    <h1>iWisdom - Smart Schooling System</h1>
+    <p class="lead">Revolutionizing Science Education through VR, MR, and AI for Grades 1 to 10</p>
+  </header>
+
+  <section>
+    <h2>About iWisdom</h2>
+    <p>iWisdom is a visionary concept for an intelligent schooling system powered by artificial intelligence, built upon ten foundational pillars. These pillars aim to revolutionize education by leveraging advanced technologies to create a more personalized, effective, and engaging learning environment.</p>
+  </section>
+
+  <section>
+    <h2>Core Pillars</h2>
+    <ul>
+      <li>VR-based immersive science content</li>
+      <li>Personalized AI tutors</li>
+      <li>Gamified learning environments</li>
+      <li>Curriculum alignment with global standards</li>
+      <li>Progress tracking and analytics</li>
+      <li>Hands-on virtual labs</li>
+      <li>Multi-language support</li>
+      <li>Mobile and headset compatibility</li>
+      <li>Offline mode for rural areas</li>
+      <li>Community and peer learning tools</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Founder Vision</h2>
+    <p>Founded by a computer engineer and innovator in EdTech, iWisdom is built to provide 10x faster, deeper, and more joyful learning experiences—especially in developing regions where access to quality science education is limited.</p>
+  </section>
+
+  <div class="footer">
+    &copy; 2025 iWisdom. All rights reserved.
+  </div>
+</body>
+</html>
